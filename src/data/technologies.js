@@ -19,7 +19,7 @@ export const technologies = [
   {id: 1,name: "CSS", img: cssIcon },
   {id: 2, name: "Javascript", img: jsIcon },
   {id: 3, name: "React", img: reactIcon },
-  {id: 4, name: "Staled Component", img: staledComponent },
+  {id: 4, name: "Styled Components", img: staledComponent },
   {id: 5, name: "Typescript", img: typescript },
   {id: 6, name: "Next.js", img: nextjs },
   {id: 7, name: "Node.js", img: nodejs },
