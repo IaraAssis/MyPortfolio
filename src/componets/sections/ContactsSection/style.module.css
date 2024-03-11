@@ -1,0 +1,60 @@
+.container{
+    height: 40vh;
+    background: #121214;
+    padding:  2vh 0;
+    
+}
+
+.contacts{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;    
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px 50px;
+    
+}
+@media (max-width: 800px) {
+    .container{
+        padding: 3vh 10vh;
+        height: 40vh;
+    }
+    .contacts {
+        display: flex;
+        flex-direction: column;
+            
+    }
+
+}
+
+.contacts > div {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    gap: 30px;
+    margin-top: 20px;
+    
+}
+.contacts button {
+    border-radius: 10px;
+    color: #FFFF;
+}
+.whatsapp{
+    height: 4rem;
+    min-width: 4.5rem;
+    background: linear-gradient(rgb(80, 197, 113) 0%, rgb(80, 207, 154) 100%); 
+}
+
+.email{
+    height: 4rem;
+    min-width: 4.5rem;
+    background: linear-gradient(rgb(125, 16, 209) 0%, rgba(133, 55, 172, 0.614) 100%);
+}
+.linkedin{
+    height: 4rem;
+    min-width: 4.5rem;
+    background: linear-gradient(rgb(78, 115, 255) 0%, rgb(80, 108, 207) 100%);
+}

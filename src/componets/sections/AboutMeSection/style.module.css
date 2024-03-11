@@ -1,0 +1,31 @@
+
+
+.containerFlex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--color-black);
+    padding: 8vh 50px;
+    gap: 100px;
+
+}
+
+.containerFlex strong > img {
+    width: 2000px;
+}
+.containerFlex div {
+    margin-bottom: 40px;
+}
+    
+@media (max-width: 800px) {
+    .containerFlex{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        text-align: center;   
+    }
+    .containerFlex strong > img {
+        width: 200px;
+    }
+}

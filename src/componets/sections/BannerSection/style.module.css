@@ -1,0 +1,41 @@
+.flexBox{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #121214f8;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 50px ;
+}
+
+.flexBox > div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+    gap: 30px;
+    text-align: center;
+}
+
+.flexBox div > img{
+    width: 700px;
+}
+.flexBox p{
+    margin-bottom: 50px;
+}
+.flexBox h2{
+    background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#3c1d7f);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent; 
+    align-items: center;
+}
+
+@media (max-width: 800px) {
+    .flexBox{
+        display: flex;
+        margin-top: 20px;   
+        
+    }
+
+}

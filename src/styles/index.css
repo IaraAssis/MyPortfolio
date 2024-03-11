@@ -1,0 +1,16 @@
+@import url(reset.css);
+@import url(global.css);
+@import url(typography.css);
+@import url(button.css);
+
+
+
+/* body{
+    background-color: var(--color-black);
+
+    width: 100%;
+    max-width:54.875rem ;
+    margin: 0 auto;
+    padding: 1rem;
+} */
+

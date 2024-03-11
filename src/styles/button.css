@@ -1,0 +1,17 @@
+.btn{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: .6rem;
+    height: 2.4375rem;
+    border-radius: 12px;
+    padding: 0 1.25rem ;
+
+    border: 1px solid var(--color-black);
+    background-color: var(--color-primary);
+    
+}
+.btn:hover{
+    background-color: var(--color-primary-Hover);
+}

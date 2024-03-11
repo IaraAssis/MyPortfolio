@@ -1,0 +1,37 @@
+.ProjectList{
+    display: flex;
+    flex-direction: column;
+    background-color: #121214f8;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 20px;
+    gap: 10px;
+    
+}
+li{
+    margin-top: 40px;
+    width: 300px;
+}
+.ProjectList > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+strong{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .ProjectList a{
+    color: var( --color-primary);
+
+} */
+.ProjectList p{
+    margin-bottom: 20px;
+
+}
+.ProjectList a:hover{
+    color: var(--color-primary-Hover );
+    text-decoration:underline ;
+
+} 

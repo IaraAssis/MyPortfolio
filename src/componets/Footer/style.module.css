@@ -1,0 +1,32 @@
+.footer{
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+
+    height: 11.875rem;
+    margin-top: 7%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.footer div > h1{
+    margin: 10px 0;
+}
+
+.footer div > img{
+    margin: 0 5px;
+}
+
+@media (max-width: 800px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+        height: 124px;
+        
+    }
+    .footer> img{
+        margin-left: 24px;
+        align-items: center;
+    }
+}
